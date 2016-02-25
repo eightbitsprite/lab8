@@ -1,7 +1,7 @@
 function initMap() {
   console.log("initMap fired");
   // Create center marker at UCSD
-  var ucsd_ltlng = {lat:32.885, lng:-117.2413};
+  var ucsd_ltlng = {lat:32.885, lng:-117.241};
 
   // Create a map object and specify the DOM element for display.
   var map = new google.maps.Map(document.getElementById('map'), {
